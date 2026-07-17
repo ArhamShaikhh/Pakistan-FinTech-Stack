@@ -37,4 +37,4 @@ Vanilla HTML/CSS/JS
 - Expand to other South Asian fintech markets for comparison
 
 ---
-Built by Arham Shaikh · https://www.linkedin.com/in/arhamashaikh/· arham.abrars@gmail.com
+Built by Arham Shaikh · https://www.linkedin.com/in/arhamashaikh/ · arham.abrars@gmail.com
