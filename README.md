@@ -1,10 +1,10 @@
-# The Stack — Pakistan Fintech Infrastructure Market Map
+# The Stack - Pakistan Fintech Infrastructure Market Map
 
 An interactive market map of Pakistan's fintech infrastructure, built as a deal-sourcing and sector-screening exercise.
 
 **[Live demo →](#)** *https://arhamshaikhh.github.io/Pakistan-FinTech-Stack/*
 
-![screenshot placeholder](screenshot.png)
+![screenshot](screenshot.png)
 
 ## What it does
 
