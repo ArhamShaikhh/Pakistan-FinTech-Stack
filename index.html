@@ -380,9 +380,9 @@
   <div class="entries" id="entries"></div>
 
   <footer>
-    Data compiled from public reporting (Tracxn, Crunchbase, Forbes, The Express Tribune, PYMNTS, company disclosures) as of July 2026.
-    Funding figures are disclosed amounts only and may understate true totals; several rounds are undisclosed or partially disclosed.
-    Built as a market-mapping exercise — not investment advice.
+    Data compiled and cross-checked against public reporting (Tracxn, PitchBook, Crunchbase, Forbes, The Express Tribune, FinTech Futures, company disclosures). Last verified July 18, 2026.
+    Funding figures are disclosed amounts only and may understate true totals; several rounds are undisclosed, partially disclosed, or blend equity with debt/strategic financing.
+    Built as a market-mapping exercise — not investment advice. Spot an error? Open an issue on the GitHub repo.
   </footer>
 
 </div>
@@ -434,10 +434,10 @@ const COMPANIES = [
   },
   {
     name:"SadaPay", layer:"wallets", founded:2018, stage:"Acquired", status:"acquired",
-    raised:10.7, raisedLabel:"$10.7M seed",
+    raised:20, raisedLabel:"$20M across 2 rounds",
     investors:["Recharge Capital","Wavemaker Partners"],
     oneLiner:"App-based EMI offering instant Visa debit cards, popular with freelancers and gig workers.",
-    note:"Acquisition by a Turkish fintech is one of the sector's few realized exits — worth studying as a template for how founders and VCs get liquidity here."
+    note:"Acquisition by a Turkish fintech is one of the sector's few realized exits. Leadership has since turned over — the founding CEO and board chairman have both exited post-acquisition — worth watching as a case study in exit integration risk."
   },
   {
     name:"Safepay", layer:"gateways", founded:2019, stage:"Seed/Series A", status:"active",
@@ -461,18 +461,18 @@ const COMPANIES = [
     note:"A logistics company building a checkout product shows how thin the line has gotten between fintech and e-commerce infrastructure here."
   },
   {
-    name:"Finja", layer:"lending", founded:2016, stage:"Acquired by OPay", status:"acquired",
+    name:"Finja", layer:"lending", founded:2015, stage:"Acquired by OPay", status:"acquired",
     raised:25, raisedLabel:"$25M across 7 rounds",
     investors:["VEF","Accion","BeeNext","Quona Capital","ICU Ventures"],
     oneLiner:"Digital lending and payments for SMEs and salaried professionals, using alternative data for credit scoring.",
     note:"Its 2024 acquisition by OPay is the clearest sign of foreign platforms buying their way into Pakistan rather than building from scratch."
   },
   {
-    name:"Abhi", layer:"lending", founded:2021, stage:"Series A", status:"active",
-    raised:17, raisedLabel:"$17M Series A",
-    investors:["Speedinvest","Fatima Gobi Ventures","Sarmayacar","i2i Ventures"],
+    name:"Abhi", layer:"lending", founded:2021, stage:"Series A+", status:"active",
+    raised:19, raisedLabel:"$19M+ across 4 rounds (equity)",
+    investors:["Speedinvest","Fatima Gobi Ventures","Sarmayacar","i2i Ventures","Shorooq Partners"],
     oneLiner:"Earned-wage access letting employees draw already-earned salary before payday, at zero cost to employers.",
-    note:"Reached a reported $90M valuation within a year of launch — the fastest re-rating on this map, worth a closer look at retention and default data."
+    note:"Reached a reported $90M valuation within a year of its Series A — since raised further equity and debt (including a $15M debt round) and expanded into Saudi Arabia and microfinance via a FINCA Bank acquisition. Total raised varies by source depending on whether debt facilities are counted."
   },
   {
     name:"QisstPay", layer:"lending", founded:2021, stage:"Seed", status:"active",
@@ -490,10 +490,10 @@ const COMPANIES = [
   },
   {
     name:"Haball", layer:"b2b", founded:2018, stage:"Pre-Series A", status:"active",
-    raised:52, raisedLabel:"$52M pre-Series A",
-    investors:["Zayn VC","Meezan Bank (strategic)"],
+    raised:52, raisedLabel:"$52M pre-Series A ($5M equity + $47M strategic)",
+    investors:["Zayn VC (equity lead)","Majlis Advisory SPV","Regional angel investors","Saudi investors"],
     oneLiner:"Supply-chain and B2B payments platform for SMEs, structured with Shariah-compliant financing.",
-    note:"The largest disclosed round on this map, and notable for pairing venture equity with strategic bank financing rather than an all-VC structure — a template other B2B fintechs may follow."
+    note:"The largest disclosed round on this map, and notable for pairing a small venture-equity tranche with a much larger strategic financing facility to fund GCC expansion — a structure worth studying rather than the pure-equity raises seen elsewhere on this map."
   },
   {
     name:"PostEx", layer:"b2b", founded:2020, stage:"Seed", status:"active",
